@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.test_files     = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths  = ['lib', 'vendor']
 
-  s.add_runtime_dependency 'opal', '~> 0.7.0'
+  s.add_runtime_dependency 'opal', '< 3.0.0', '>= 2.2.3'
   s.add_runtime_dependency 'opal-activesupport', '~> 0'
   s.add_runtime_dependency 'therubyracer', '~> 0'
   s.add_runtime_dependency 'react-jsx', '~> 0.8.0'
