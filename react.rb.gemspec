@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'opal-activesupport', '~> 0'
   s.add_runtime_dependency 'therubyracer', '~> 0'
   s.add_runtime_dependency 'react-jsx', '~> 0.8.0'
-  s.add_runtime_dependency 'sprockets', '>= 2.2.3', '< 3.0.0'
+  s.add_runtime_dependency 'sprockets', '~> 3.2.0'
   s.add_development_dependency 'react-source', '~> 0.12.0'
   s.add_development_dependency 'opal-rspec', '~> 0.3.0.beta3'
   s.add_development_dependency 'sinatra', '~> 1'
